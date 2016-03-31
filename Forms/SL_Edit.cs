@@ -71,6 +71,7 @@ namespace StudentManagementSystem.Forms
         private void SL_Edit_Leave(object sender, EventArgs e)
         {
             Database1.Close();
+            student = null;
         }
 
         private void btnAddPhoto_Click(object sender, EventArgs e)

@@ -97,3 +97,34 @@ C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_
 C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\dje-NE\StudentMangementSystem.resources.dll
 C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentMangementSystem.exe
 C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\bin\Debug\StudentMangementSystem.exe.config
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\bin\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\bin\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\bin\Debug\dje-NE\StudentMangementSystem.resources.dll
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\bin\Debug\MySql.Data.dll
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Forms.AboutUs.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.AttendanceForm.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Home.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Login.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.ToolMenu.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.MessageBoxUser.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Forms.NewClass.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Option.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.PictureCircle.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Forms.Report.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.SignUp1.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Forms.SL_Edit.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.SC_Edit.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.SC_List.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.SC_Settings.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.SL_Add.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.SL_List.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.StudentList.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.StudentScore.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentManagementSystem.Forms.SL_Edit.dje-NE.resources
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.csproj.GenerateResource.Cache
+C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\dje-NE\StudentMangementSystem.resources.dll

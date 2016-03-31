@@ -17,7 +17,6 @@ namespace StudentManagementSystem
         static List<StudentListDB> Mystudent;
         public static int rowIndex=-1;
 
-        
         public SL_List()
         {
             InitializeComponent();
@@ -84,7 +83,6 @@ namespace StudentManagementSystem
                 try
                 {
                 ss= Mystudent.ElementAt(id);
-
                 }
                 catch (Exception ex)
                 {
