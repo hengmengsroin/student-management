@@ -23,7 +23,7 @@ namespace StudentManagementSystem
         {
             this.Close();
         }
-
+        public static string PhotoPath;
         private void Login_Load(object sender, EventArgs e)
         {
             Database1.Open();
@@ -75,6 +75,7 @@ namespace StudentManagementSystem
                 password = user.Password;
                 hidest(1);
                 pictureCircle1.ImageLocation = user.Path;
+                PhotoPath = user.Path;
             }
 
         }
@@ -179,6 +180,7 @@ namespace StudentManagementSystem
             SignUp1 SU = new SignUp1();
             SU.ShowDialog();
         }
+
 
         private void Login_Leave(object sender, EventArgs e)
         {

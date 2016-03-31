@@ -82,7 +82,7 @@
             this.pnMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnMenu.Location = new System.Drawing.Point(0, 0);
             this.pnMenu.Name = "pnMenu";
-            this.pnMenu.Size = new System.Drawing.Size(256, 780);
+            this.pnMenu.Size = new System.Drawing.Size(256, 772);
             this.pnMenu.TabIndex = 0;
             // 
             // btnClose
@@ -123,7 +123,7 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.panel2.Controls.Add(this.lbReady);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 743);
+            this.panel2.Location = new System.Drawing.Point(0, 735);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(256, 37);
             this.panel2.TabIndex = 8;
@@ -331,7 +331,7 @@
             this.pnMain.ImeMode = System.Windows.Forms.ImeMode.On;
             this.pnMain.Location = new System.Drawing.Point(256, 0);
             this.pnMain.Name = "pnMain";
-            this.pnMain.Size = new System.Drawing.Size(1122, 83);
+            this.pnMain.Size = new System.Drawing.Size(1114, 83);
             this.pnMain.TabIndex = 0;
             // 
             // btnExit
@@ -385,9 +385,9 @@
             // 
             this.pnUnder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.pnUnder.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnUnder.Location = new System.Drawing.Point(256, 743);
+            this.pnUnder.Location = new System.Drawing.Point(256, 735);
             this.pnUnder.Name = "pnUnder";
-            this.pnUnder.Size = new System.Drawing.Size(1122, 37);
+            this.pnUnder.Size = new System.Drawing.Size(1114, 37);
             this.pnUnder.TabIndex = 13;
             // 
             // ToolMenu
@@ -395,7 +395,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1378, 780);
+            this.ClientSize = new System.Drawing.Size(1370, 772);
             this.Controls.Add(this.pnUnder);
             this.Controls.Add(this.pnMain);
             this.Controls.Add(this.pnMenu);

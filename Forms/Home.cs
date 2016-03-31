@@ -101,7 +101,7 @@ namespace StudentManagementSystem
         private void Home_Load(object sender, EventArgs e)
         {
             Database1.Open();
-            
+            pictureBox1.ImageLocation = Login.PhotoPath;
         }
 
         private void Home_Leave(object sender, EventArgs e)
