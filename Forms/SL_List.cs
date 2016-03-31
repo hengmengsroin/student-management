@@ -15,13 +15,12 @@ namespace StudentManagementSystem
     public partial class SL_List : Form
     {
         static List<StudentListDB> Mystudent;
-        public static int rowIndex=-1;
+       // public static int rowIndex=-1;
 
         public SL_List()
         {
             InitializeComponent();
         }
-        public static int ID;
 
         public void LoadStudent()
         {
@@ -53,17 +52,16 @@ namespace StudentManagementSystem
         {
             Database1.Close();
         }
-        
+        public static int rowIndex = -1;
         private void dataGridViewScore_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            dataGridViewScore.RowsDefaultCellStyle.SelectionBackColor = Color.Red;
+            dataGridViewScore.RowsDefaultCellStyle.SelectionBackColor = Color.DarkGray;
             dataGridViewScore.RowsDefaultCellStyle.SelectionForeColor = Color.Blue;
-            rowIndex = Int16.Parse(dataGridViewScore.SelectedCells[0].Value.ToString());
+            rowIndex = Int16.Parse(dataGridViewScore.SelectedCells[0].Value.ToString()); 
         }
         //private StudentListDB student = new StudentListDB();
         public StudentListDB GetSelected()
         {
-
             if (rowIndex<0)
             {
                 return null;

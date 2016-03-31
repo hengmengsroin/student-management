@@ -18,7 +18,7 @@ namespace StudentManagementSystem.Forms
             InitializeComponent();
             student = s;
         }
-        public Image img;
+        public static Image img;
         private void SL_Edit_Load(object sender, EventArgs e)
         {
             Database1.Open();

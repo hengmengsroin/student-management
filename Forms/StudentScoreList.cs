@@ -26,7 +26,6 @@ namespace StudentManagementSystem
         }
         private void StudentScore_Load(object sender, EventArgs e)
         {
-            ///
     
             SC_List List = new SC_List();
             List.TopLevel = false;

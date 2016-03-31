@@ -68,16 +68,15 @@ namespace StudentManagementSystem
             Add.TopLevel = false;
             Add.AutoScroll = true;
             pnSList.Controls.Add(Add);
+            btnEdit.Enabled= false;
+            btnDelete.Enabled = false;
             Add.Show();
-            
         }
 
         public void btnList_Click(object sender, EventArgs e)
         {
-            //lbMainName.Text = "Students List";
-            //ColorChecker
-            //pnTool.Controls.Clear();
-            //DetectButton(2);
+            btnEdit.Enabled = true;
+            btnDelete.Enabled = true;
             ///////////////Open Form StudentList/////////////////////////////
             DetectColorButton(1);
             pnSList.Controls.Clear();
@@ -102,9 +101,8 @@ namespace StudentManagementSystem
                 Edit.TopLevel = false;
                 Edit.AutoScroll = true;
                 pnSList.Controls.Add(Edit);
+                btnDelete.Enabled = false;
                 Edit.Show();
-                btnEdit.Enabled = true;
-                btnDelete.Enabled =true;
             }
 
             else MessageBox.Show("Please Select Student First!!!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
@@ -126,7 +124,6 @@ namespace StudentManagementSystem
                 this.btnList_Click(sender ,e );
                 }
             }
-
             else MessageBox.Show("Please Select Student First!!!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             
         }

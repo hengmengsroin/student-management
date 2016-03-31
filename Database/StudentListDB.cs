@@ -112,7 +112,7 @@ namespace StudentManagementSystem
         }
         public static void Update(StudentListDB student)
         {
-            string query = "UPDATE studentlist SET name=@name, gender= @gender, DOB= @DOB, POB =@POB, motherName= @motherName, fatherName= @fatherName, address= @address, phone=@phone WHERE studentID=@id";
+            string query = "UPDATE studentlist SET name=@name, gender= @gender, DOB= @DOB, POB =@POB, motherName= @motherName, fatherName= @fatherName, address= @address, phone=@phone, photo=@photo, photoPath=@photoPath WHERE studentID=@id";
             MySqlCommand cmd = new MySqlCommand(query, Database1.connection);
             cmd.Prepare();
             cmd.Parameters.AddWithValue("@id", student.Id);
@@ -124,6 +124,8 @@ namespace StudentManagementSystem
             cmd.Parameters.AddWithValue("@fatherName", student.FatherName);
             cmd.Parameters.AddWithValue("@address", student.Address);
             cmd.Parameters.AddWithValue("@phone", student.Phone);
+            cmd.Parameters.AddWithValue("@photo", student.Photo);
+            cmd.Parameters.AddWithValue("@photoPath", student.PhotoPath);
             try
             {
             cmd.ExecuteNonQuery();
