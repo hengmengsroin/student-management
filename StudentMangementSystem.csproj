@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75B4F3AC-E573-4493-BE06-899D1A05C12A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StudentManagementSystem</RootNamespace>
+    <AssemblyName>StudentMangementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\..\Inneed\Italk\t3_vb.net_theme_archive_1.7.0\T3 VB.NET Theme Archive 1.7.0\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MySql.Data">
+      <HintPath>C:\MAMP\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database\Class.cs" />
+    <Compile Include="Database\DataBase.cs" />
+    <Compile Include="Database\Database1.cs" />
+    <Compile Include="Forms\AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Attendance.cs" />
+    <Compile Include="Forms\AttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AttendanceForm.designer.cs">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MessageBoxUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MessageBoxUser.Designer.cs">
+      <DependentUpon>MessageBoxUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewClass.Designer.cs">
+      <DependentUpon>NewClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Option.Designer.cs">
+      <DependentUpon>Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PictureCircle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SignUp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SignUp1.Designer.cs">
+      <DependentUpon>SignUp1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SL_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SL_Edit.Designer.cs">
+      <DependentUpon>SL_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\SC_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SC_Edit.Designer.cs">
+      <DependentUpon>SC_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SC_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SC_List.Designer.cs">
+      <DependentUpon>SC_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SC_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SC_Settings.Designer.cs">
+      <DependentUpon>SC_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\MyStudentScore.Cs" />
+    <Compile Include="Forms\SL_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SL_Add.designer.cs">
+      <DependentUpon>SL_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SL_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SL_List.designer.cs">
+      <DependentUpon>SL_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StudentList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentList.designer.cs">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\StudentListDB.cs" />
+    <Compile Include="Forms\StudentScoreList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StudentScoreList.Designer.cs">
+      <DependentUpon>StudentScoreList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database\User.cs" />
+    <EmbeddedResource Include="Forms\AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AttendanceForm.resx">
+      <DependentUpon>AttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MessageBoxUser.resx">
+      <DependentUpon>MessageBoxUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewClass.resx">
+      <DependentUpon>NewClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Option.resx">
+      <DependentUpon>Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PictureCircle.resx">
+      <DependentUpon>PictureCircle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SignUp1.resx">
+      <DependentUpon>SignUp1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SL_Edit.dje-NE.resx">
+      <DependentUpon>SL_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SL_Edit.resx">
+      <DependentUpon>SL_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\SC_Edit.resx">
+      <DependentUpon>SC_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SC_List.resx">
+      <DependentUpon>SC_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SC_Settings.resx">
+      <DependentUpon>SC_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SL_Add.resx">
+      <DependentUpon>SL_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SL_List.resx">
+      <DependentUpon>SL_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentList.resx">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StudentScoreList.resx">
+      <DependentUpon>StudentScoreList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X-Close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1446056129_Student-3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1446056085_Student-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-undo-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-undo-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458373279_Find01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458373346_Find01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1458373660_Find01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\English Flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khmer Flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MB__back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MB__back1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

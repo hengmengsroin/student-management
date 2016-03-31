@@ -1,0 +1,99 @@
+D:\My Project\StudentMangementSystem\StudentMangementSystem\bin\Debug\StudentMangementSystem.exe.config
+D:\My Project\StudentMangementSystem\StudentMangementSystem\bin\Debug\StudentMangementSystem.exe
+D:\My Project\StudentMangementSystem\StudentMangementSystem\bin\Debug\StudentMangementSystem.pdb
+D:\My Project\StudentMangementSystem\StudentMangementSystem\bin\Debug\FastColoredTextBox.dll
+D:\My Project\StudentMangementSystem\StudentMangementSystem\bin\Debug\MySql.Data.dll
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.Home.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.ToolMenu.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.Properties.Resources.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.SC_Edit.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.SC_List.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.SC_Settings.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.StudentScore.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.csproj.GenerateResource.Cache
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.exe
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.pdb
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.Login.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.PictureCircle.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.Option.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.MessageBoxUser.resources
+D:\My Project\StudentMangementSystem\StudentMangementSystem\obj\Debug\StudentMangementSystem.SignUp.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\bin\Debug\StudentMangementSystem.exe.config
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\bin\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\bin\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\bin\Debug\MySql.Data.dll
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentMangementSystem.csproj.GenerateResource.Cache
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.SL_Add.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.SL_List.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.StudentList.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.Home.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.Login.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.ToolMenu.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.MessageBoxUser.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.Option.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.PictureCircle.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.SC_Edit.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.SC_List.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.SC_Settings.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.SignUp.resources
+C:\Users\MENGSROIN\Downloads\Compressed\StudentMangementSystem\obj\Debug\StudentManagementSystem.StudentScore.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\bin\Debug\StudentMangementSystem.exe.config
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\bin\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\bin\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\bin\Debug\MySql.Data.dll
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.Home.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.Login.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.ToolMenu.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.MessageBoxUser.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.Option.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.PictureCircle.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.SC_Edit.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.SC_List.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.SC_Settings.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.SL_Add.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.SL_List.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.StudentList.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.StudentScore.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentMangementSystem.csproj.GenerateResource.Cache
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.SignUp1.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem\obj\Debug\StudentManagementSystem.Forms.NewClass.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\bin\Debug\StudentMangementSystem.exe.config
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\bin\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\bin\Debug\StudentMangementSystem.pdb
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\bin\Debug\dje-NE\StudentMangementSystem.resources.dll
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\bin\Debug\MySql.Data.dll
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Forms.AboutUs.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.AttendanceForm.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Home.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Login.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.ToolMenu.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.MessageBoxUser.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Forms.NewClass.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Option.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.PictureCircle.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Forms.Report.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.SignUp1.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Forms.SL_Edit.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Properties.Resources.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.SC_Edit.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.SC_List.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.SC_Settings.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.SL_Add.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.SL_List.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.StudentList.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.StudentScore.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentManagementSystem.Forms.SL_Edit.dje-NE.resources
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentMangementSystem.csproj.GenerateResource.Cache
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\dje-NE\StudentMangementSystem.resources.dll
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentMangementSystem.exe
+C:\Users\MENGSROIN\Documents\Visual Studio 2013\Projects\StudentMangementSystem_Main\obj\Debug\StudentMangementSystem.pdb
