@@ -127,4 +127,3 @@ C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangement
 C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\dje-NE\StudentMangementSystem.resources.dll
 C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.exe
 C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.pdb
-C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache

@@ -36,9 +36,18 @@ namespace StudentManagementSystem
         {
             students = Attendance.GetStudent();
             dataGridViewAtd.Rows.Clear();
+            string gender;
             foreach (StudentListDB s in students)
             {
-                dataGridViewAtd.Rows.Add(s.Id, s.Name, s.Gender);
+                if (s.Gender==true)
+                {
+                    gender = "M";
+                }
+                else
+                {
+                    gender = "F";
+                }
+                dataGridViewAtd.Rows.Add(s.Id, s.Name, gender);
             }
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -176,12 +185,15 @@ namespace StudentManagementSystem
             dataGridViewAtd.Columns[0].Name = "ID";
             dataGridViewAtd.Columns[0].Width = 30;
             dataGridViewAtd.Columns[0].ReadOnly = true;
+            dataGridViewAtd.Columns[0].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewAtd.Columns[1].Name = "Student Name";
-            dataGridViewAtd.Columns[1].Width = 200;
+            dataGridViewAtd.Columns[1].Width = 150;
             dataGridViewAtd.Columns[1].ReadOnly = true;
+            dataGridViewAtd.Columns[1].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewAtd.Columns[2].Name = "Gender";
-            dataGridViewAtd.Columns[2].Width = 50;
+            dataGridViewAtd.Columns[2].Width = 70;
             dataGridViewAtd.Columns[2].ReadOnly = true;
+            dataGridViewAtd.Columns[2].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
             for (int i = 0; i < day; i++)
             {

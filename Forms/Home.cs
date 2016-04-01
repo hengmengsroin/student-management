@@ -68,7 +68,6 @@ namespace StudentManagementSystem
             }
         }
 
-
         public void CreateDynamicButton(string n, int x, int y)
         {
             // Create a Button object
