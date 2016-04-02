@@ -56,7 +56,7 @@ namespace StudentManagementSystem.Forms
             student.MotherName = txtMotherName.Text;
             student.POB = txtPOB.Text;
             student.Address = txtAddress.Text;
-            student.Phone = Int32.Parse(txtPhone.Text);
+            student.Phone = (txtPhone.Text);
             student.PhotoPath = Picture.ImageLocation;
             student.Photo = img;
             StudentListDB.Update(student);

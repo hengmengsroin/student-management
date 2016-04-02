@@ -22,6 +22,7 @@ namespace StudentManagementSystem
             ttMinimun.SetToolTip(btnMinimun, "Minimun");
             btnHome.BackColor = Color.WhiteSmoke;
             Home Home = new Home();
+            Home.Owner = this;
             Home.TopLevel = false;
             Home.AutoScroll = true;
             pnTool.Controls.Add(Home);
@@ -49,6 +50,7 @@ namespace StudentManagementSystem
             /////////////////Open Form Home/////////////////////////////
             pnTool.Controls.Clear();
             Home Home = new Home();
+            Home.Owner = this;
             Home.TopLevel = false;
             Home.AutoScroll = true;
             pnTool.Controls.Add(Home);
@@ -56,7 +58,7 @@ namespace StudentManagementSystem
 
         }
 
-        private void btnStudentList_Click(object sender, EventArgs e)
+        public void btnStudentList_Click(object sender, EventArgs e)
         {
             lbMainName.Text = btnStudentList.Text;
             //ColorChecker
@@ -64,6 +66,7 @@ namespace StudentManagementSystem
             
             pnTool.Controls.Clear();
             StudentList list = new StudentList();
+            list.Owner = this;
             list.TopLevel = false;
             list.AutoScroll = true;
             pnTool.Controls.Add(list);
@@ -239,7 +242,22 @@ namespace StudentManagementSystem
 
         private void ToolMenu_Load(object sender, EventArgs e)
         {
+            Home h = new Home();
+            h.Owner = this;
+        }
 
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login g = new Login();
+            g.Show();
+        }
+
+        private void btnAboutUs_Click(object sender, EventArgs e)
+        {
+            AboutUs us = new AboutUs();
+            us.Show();
         }
     }
 

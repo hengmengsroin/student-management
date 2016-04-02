@@ -101,6 +101,8 @@ namespace StudentManagementSystem
         {
             Database1.Open();
             pictureBox1.ImageLocation = Login.PhotoPath;
+            lbID.Text = Login.ID.ToString() ;
+            lbName.Text = Login.UserName.ToString() ;
         }
 
         private void Home_Leave(object sender, EventArgs e)

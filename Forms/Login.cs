@@ -22,8 +22,12 @@ namespace StudentManagementSystem
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+            Application.Exit();
         }
+
         public static string PhotoPath;
+        public static string UserName;
+        public static int ID;
         private void Login_Load(object sender, EventArgs e)
         {
             Database1.Open();
@@ -76,6 +80,8 @@ namespace StudentManagementSystem
                 hidest(1);
                 pictureCircle1.ImageLocation = user.Path;
                 PhotoPath = user.Path;
+                ID = user.Id;
+                UserName = user.Name;
             }
 
         }
@@ -186,5 +192,7 @@ namespace StudentManagementSystem
         {
             Database1.Close();
         }
+
+
     }
 }

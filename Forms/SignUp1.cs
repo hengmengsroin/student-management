@@ -69,7 +69,7 @@ namespace StudentManagementSystem
             }
             s.Username = txtUsername.Text.Trim();
             s.Password = txtPassword.Text.Trim();
-            s.Phone = Int32.Parse(txtPhone.Text.Trim());
+            s.Phone = (txtPhone.Text.Trim());
             s.Path = Picture.ImageLocation;
             s.Photo = img;
             User.SignUp(s);

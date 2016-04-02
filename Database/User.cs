@@ -14,7 +14,7 @@ namespace StudentManagementSystem
         public int Id;
         public string Name;
         public bool Gender;
-        public int Phone;
+        public string Phone;
         public string Username;
         public string Password;
         public string Role;
@@ -39,6 +39,7 @@ namespace StudentManagementSystem
                     user.Username = reader["username"].ToString();
                     user.Password = reader["password"].ToString();
                     user.Path = reader["path"].ToString();
+                    user.Name = reader["name"].ToString();
                     //byte[] photoByte = (byte[])reader["photo"];
                     //MemoryStream ms = new MemoryStream(photoByte);
                     //user.Photo = Image.FromStream(ms);

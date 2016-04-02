@@ -116,7 +116,7 @@ namespace StudentManagementSystem
             student = s.GetSelected();
             if (student != null)
             {
-                var result = MessageBox.Show("Do you want to delete "+ student.Name , "Delete Confirm!",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show("Do you want to delete: "+ student.Name , "Delete Confirm!",MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result== DialogResult.Yes)
                 {
                 StudentListDB.Delete(student.Id);

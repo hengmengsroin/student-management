@@ -48,7 +48,7 @@ namespace StudentManagementSystem
             s.FatherName = txtFatherName.Text.Trim();
             s.MotherName = txtMotherName.Text.Trim();
             s.Address = txtAddress.Text.Trim();
-            s.Phone = Int32.Parse(txtPhone.Text.Trim());
+            s.Phone = txtPhone.Text.Trim();
             s.Photo = img;
             s.PhotoPath = Picture.ImageLocation;
             s.ClassID = 2;

@@ -22,7 +22,7 @@ namespace StudentManagementSystem
         public string MotherName;
         public string FatherName;
         public string Address;
-        public int Phone;
+        public string Phone;
         public string PhotoPath;
         public Image Photo;
         public static int ID = 0;
@@ -39,7 +39,7 @@ namespace StudentManagementSystem
                 string query = "SELECT * FROM studentlist";
                 MySqlCommand cmd = new MySqlCommand(query, Database1.connection);
                 MySqlDataReader reader = cmd.ExecuteReader();
-
+               // cmd.Parameters.AddWithValue("@classID", ClassID);
                 while (reader.Read())
                 {
                     StudentListDB p = new StudentListDB();
@@ -51,7 +51,7 @@ namespace StudentManagementSystem
                     p.MotherName = reader["motherName"].ToString();
                     p.FatherName = reader["fatherName"].ToString();
                     p.Address = reader["address"].ToString();
-                    p.Phone = Int32.Parse(reader["phone"].ToString());
+                    p.Phone = (reader["phone"].ToString());
                     p.PhotoPath = reader["photoPath"].ToString();
                     student.Add(p);
                 }

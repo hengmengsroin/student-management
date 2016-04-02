@@ -37,7 +37,7 @@
             this.lbReady = new System.Windows.Forms.Label();
             this.btnReport = new System.Windows.Forms.Button();
             this.btnStudentPayment = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnAboutUs = new System.Windows.Forms.Button();
             this.btnStudentAttendent = new System.Windows.Forms.Button();
             this.btnStudentList = new System.Windows.Forms.Button();
             this.btnStudentScore = new System.Windows.Forms.Button();
@@ -46,7 +46,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLogOut = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pnMain = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
@@ -71,13 +71,13 @@
             this.pnMenu.Controls.Add(this.panel2);
             this.pnMenu.Controls.Add(this.btnReport);
             this.pnMenu.Controls.Add(this.btnStudentPayment);
-            this.pnMenu.Controls.Add(this.button4);
+            this.pnMenu.Controls.Add(this.btnAboutUs);
             this.pnMenu.Controls.Add(this.btnStudentAttendent);
             this.pnMenu.Controls.Add(this.btnStudentList);
             this.pnMenu.Controls.Add(this.btnStudentScore);
             this.pnMenu.Controls.Add(this.btnHome);
             this.pnMenu.Controls.Add(this.pnApp);
-            this.pnMenu.Controls.Add(this.button1);
+            this.pnMenu.Controls.Add(this.btnLogOut);
             this.pnMenu.Controls.Add(this.panel3);
             this.pnMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnMenu.Location = new System.Drawing.Point(0, 0);
@@ -173,20 +173,21 @@
             this.btnStudentPayment.UseVisualStyleBackColor = true;
             this.btnStudentPayment.Click += new System.EventHandler(this.btnStudentPayment_Click);
             // 
-            // button4
+            // btnAboutUs
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Chaparral Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(0, 701);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(262, 36);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "About US";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnAboutUs.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
+            this.btnAboutUs.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
+            this.btnAboutUs.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
+            this.btnAboutUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAboutUs.Font = new System.Drawing.Font("Chaparral Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAboutUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAboutUs.Location = new System.Drawing.Point(0, 701);
+            this.btnAboutUs.Name = "btnAboutUs";
+            this.btnAboutUs.Size = new System.Drawing.Size(262, 36);
+            this.btnAboutUs.TabIndex = 4;
+            this.btnAboutUs.Text = "About US";
+            this.btnAboutUs.UseVisualStyleBackColor = false;
+            this.btnAboutUs.Click += new System.EventHandler(this.btnAboutUs_Click);
             // 
             // btnStudentAttendent
             // 
@@ -298,20 +299,21 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Management";
             // 
-            // button1
+            // btnLogOut
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Chaparral Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(0, 662);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(262, 36);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "LOG OUT";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
+            this.btnLogOut.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
+            this.btnLogOut.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(18)))));
+            this.btnLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogOut.Font = new System.Drawing.Font("Chaparral Pro", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnLogOut.Location = new System.Drawing.Point(0, 662);
+            this.btnLogOut.Name = "btnLogOut";
+            this.btnLogOut.Size = new System.Drawing.Size(262, 36);
+            this.btnLogOut.TabIndex = 6;
+            this.btnLogOut.Text = "LOG OUT";
+            this.btnLogOut.UseVisualStyleBackColor = false;
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // panel3
             // 
@@ -427,10 +429,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnAboutUs;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnMinimun;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLogOut;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lbReady;
         private System.Windows.Forms.Panel panel3;

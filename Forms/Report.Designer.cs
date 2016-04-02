@@ -47,7 +47,7 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Student List",
             "Student Score",
-            "student Attendance"});
+            "Student Attendance"});
             this.comboBox1.Location = new System.Drawing.Point(665, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(136, 21);
