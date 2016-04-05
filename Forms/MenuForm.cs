@@ -21,13 +21,8 @@ namespace StudentManagementSystem
             ttClose.SetToolTip(btnExit, "Close");
             ttMinimun.SetToolTip(btnMinimun, "Minimun");
             btnHome.BackColor = Color.WhiteSmoke;
-            Home Home = new Home();
-            Home.Owner = this;
-            Home.TopLevel = false;
-            Home.AutoScroll = true;
-            pnTool.Controls.Add(Home);
-            Home.Show();
-            pnUnder.BackColor = Color.FromArgb(192, 64, 0);
+            Home h = new Home();
+            h.Owner = this;
         }
 
         private void btnMinimize_Click(object sender, EventArgs e)
@@ -55,7 +50,7 @@ namespace StudentManagementSystem
             Home.AutoScroll = true;
             pnTool.Controls.Add(Home);
             Home.Show();
-
+            DisactiveButton();
         }
 
         public void btnStudentList_Click(object sender, EventArgs e)
@@ -242,22 +237,48 @@ namespace StudentManagementSystem
 
         private void ToolMenu_Load(object sender, EventArgs e)
         {
-            Home h = new Home();
-            h.Owner = this;
+            this.btnHome_Click(sender, e);
         }
 
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Login g = new Login();
-            g.Show();
+            var result = MessageBox.Show("DO YOU WANT TO LOG OUT?", "LOG OUT", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+
+                this.Close();
+                Login g = new Login();
+                g.Show();
+            } 
         }
 
         private void btnAboutUs_Click(object sender, EventArgs e)
         {
             AboutUs us = new AboutUs();
             us.Show();
+        }
+
+        public void DisactiveButton()
+        {
+            btnStudentList.Enabled = false;
+            btnStudentScore.Enabled = false;
+            btnStudentAttendent.Enabled = false;
+            btnClose.Enabled = false;
+            btnReport.Enabled = false;
+            btnOption.Enabled = false;
+            btnStudentPayment.Enabled = false;
+        }
+
+        public void ActiveButton()
+        {
+            btnStudentList.Enabled = true;
+            btnStudentScore.Enabled = true;
+            btnStudentAttendent.Enabled = true;
+            btnClose.Enabled = true;
+            btnReport.Enabled = true;
+            btnOption.Enabled = true;
+            btnStudentPayment.Enabled = true;
         }
     }
 

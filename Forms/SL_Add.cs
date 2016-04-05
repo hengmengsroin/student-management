@@ -16,7 +16,9 @@ namespace StudentManagementSystem
         {
             InitializeComponent();
         }
+
         public static Image img;
+
         private void SL_Add_Load(object sender, EventArgs e)
         {
             Database1.Open();
@@ -56,6 +58,7 @@ namespace StudentManagementSystem
             
             Database1.Close();
             (this.Owner as StudentList).btnList_Click(sender, e);
+            
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

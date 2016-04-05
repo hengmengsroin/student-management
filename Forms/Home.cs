@@ -20,7 +20,7 @@ namespace StudentManagementSystem
         public Home()
         {
             InitializeComponent();
-            LoadButton();
+            
         }
 
         public List<Class> classes = new List<Class>();
@@ -94,12 +94,15 @@ namespace StudentManagementSystem
 
         private void DynamicButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Show Student List");
+            MessageBox.Show("Now you are in class ");
+            (this.Owner as ToolMenu).btnStudentList_Click(sender,e);
+            (this.Owner as ToolMenu).ActiveButton();
         }
 
         private void Home_Load(object sender, EventArgs e)
         {
             Database1.Open();
+            LoadButton();
             pictureBox1.ImageLocation = Login.PhotoPath;
             lbID.Text = Login.ID.ToString() ;
             lbName.Text = Login.UserName.ToString() ;
