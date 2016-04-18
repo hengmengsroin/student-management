@@ -128,3 +128,5 @@ C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\dje-NE\StudentMa
 C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.exe
 C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.pdb
 C:\Users\MENGSROIN\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Documents\GitHub\StudentManagement\bin\Debug\StudentMangementSystem.exe.config
+C:\Users\DELL\Documents\GitHub\StudentManagement\obj\Debug\StudentMangementSystem.csprojResolveAssemblyReference.cache
